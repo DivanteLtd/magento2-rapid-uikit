@@ -1,0 +1,26 @@
+{
+  "name": "divante/module-uikit",
+  "description": "Module Divante Uikit for Divante Rapid theme",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Kacper Chara",
+      "email": "kchara@divante.pl"
+    }
+  ],
+  "require": {
+    "php": "~5.6.0|7.0.2|~7.0.6"
+  },
+  "type": "magento2-module",
+  "version": "1.2.5",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Divante\\Uikit\\": ""
+    }
+  }
+}

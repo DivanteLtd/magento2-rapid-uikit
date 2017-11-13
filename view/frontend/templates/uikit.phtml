@@ -1,0 +1,615 @@
+<?php
+/**
+ * @package Divante/Uikit
+ * @author Kacper Chara <kchara@divante.pl>
+ * @copyright 2017 Divante Sp. z o.o.
+ * @license See LICENSE_DIVANTE.txt for license details.
+ */
+
+/** @var $block \Divante\Uikit\Block\Uikit */
+?>
+
+<h1><?php echo $this->getDivanteUikitHeadingTxt(); ?></h1>
+
+<h2>All customizable variables: <strong>theme-frontend-rapid/web/css/source/_theme.less</strong> <br>
+or if they do not exist in _theme.less they can be here: <strong>lib/web/css/source/lib/variables</strong> <br>
+    or directly in modules files.</h2>
+
+<h2>Buttons</h2>
+<div class="overflow-section">
+    <table>
+        <tr>
+            <th>Element</th>
+            <th>View</th>
+            <th width="200">Default or Custom</th>
+        </tr>
+
+        <tr>
+            <td>Link "a"</td>
+            <td>
+                <a href="#">View and shop now</a>
+                <xmp><a href="#">View and shop now</a></xmp>
+            </td>
+            <td>Default Magento</td>
+        </tr>
+
+        <tr>
+            <td>Button "button" (magento secondary)</td>
+            <td>
+                <button>
+                    <span>Button</span>
+                </button>
+                <xmp><button><span>Button</span></button></xmp>
+            </td>
+            <td>Default Magento</td>
+        </tr>
+
+        <tr>
+            <td>Button "button.action.primary"</td>
+            <td>
+                <button class="action primary">
+                    <span>Primary</span>
+                </button>
+                <xmp><button class="action primary"><span>Primary</span></button></xmp>
+            </td>
+            <td>Default Magento</td>
+        </tr>
+
+        <tr>
+            <td>Link as a button "a.action.primary"</td>
+            <td>
+                <a href="#" class="action primary">Link as a button</a>
+                <xmp><a href="#" class="action primary">Link as a button</a></xmp>
+            </td>
+            <td>Default Magento</td>
+        </tr>
+
+        <tr>
+            <td>Link as a button "a.as-button"</td>
+            <td>
+                <a href="#" class="as-button">Link as a button</a>
+                <xmp><a href="#" class="as-button">Link as a button</a></xmp>
+            </td>
+            <td style="color: blue">Custom Divante</td>
+        </tr>
+
+        <tr>
+            <td>Button "button.action.on-dark-bg"</td>
+            <td>
+                <div style="background: black; padding: 10px; display: inline-block;">
+                    <button class="action on-dark-bg">
+                        <span>On dark bg</span>
+                    </button>
+                </div>
+                <xmp><button class="action on-dark-bg"><span>On dark bg</span></button></xmp>
+            </td>
+            <td style="color: blue">Custom Divante</td>
+        </tr>
+
+        <tr>
+            <td>Link "a.action.on-dark-bg"</td>
+            <td>
+                <div style="background: black; padding: 10px; display: inline-block;">
+                    <a href="#" class="action on-dark-bg">Link as a button On dark bg</a>
+                </div>
+                <xmp><a href="#" class="action on-dark-bg">Link as a button On dark bg</a></xmp>
+            </td>
+            <td style="color: blue">Custom Divante</td>
+        </tr>
+
+        <tr>
+            <td>Button as a link "button.as-link"</td>
+            <td>
+                <button class="as-link">Button as a link</button>
+                <xmp><button class="as-link">Button as a link</button></xmp>
+            </td>
+            <td style="color: blue">Custom Divante</td>
+        </tr>
+
+        <tr>
+            <td>Button small</td>
+            <td>
+                <button class="size-small"><span>Button</span></button>
+                <xmp><button class="size-small"><span>Button</span></button></xmp>
+
+                <hr>
+
+                <button class="action primary size-small">
+                    <span>Primary</span>
+                </button>
+                <xmp><button class="action primary size-small"><span>Primary</span></button></xmp>
+
+                <hr>
+
+                <div style="background: black; padding: 10px; display: inline-block;">
+                    <a href="#" class="action on-dark-bg size-small">Link as a button On dark bg</a>
+                </div>
+                <xmp><a href="#" class="action on-dark-bg size-small">Link as a button On dark bg</a></xmp>
+
+                <hr>
+
+                <a href="#" class="as-button size-small">Link as a button</a>
+                <xmp><a href="#" class="as-button size-small">Link as a button</a></xmp>
+            </td>
+            <td style="color: blue">Custom Divante</td>
+        </tr>
+
+        <tr>
+            <td>Button large</td>
+            <td>
+                <button class="size-large"><span>Button</span></button>
+                <xmp><button class="size-large"><span>Button</span></button></xmp>
+
+                <hr>
+
+                <button class="action primary size-large">
+                    <span>Primary</span>
+                </button>
+                <xmp><button class="action primary size-large"><span>Primary</span></button></xmp>
+
+                <hr>
+
+                <div style="background: black; padding: 10px; display: inline-block;">
+                    <a href="#" class="action on-dark-bg size-large">Link as a button On dark bg</a>
+                </div>
+                <xmp><a href="#" class="action on-dark-bg size-large">Link as a button On dark bg</a></xmp>
+
+                <hr>
+
+                <a href="#" class="as-button size-large">Link as a button</a>
+                <xmp><a href="#" class="as-button size-large">Link as a button</a></xmp>
+            </td>
+            <td style="color: blue">Custom Divante</td>
+        </tr>
+    </table>
+</div>
+<br><br>
+
+<h2>Forms</h2>
+<div class="overflow-section">
+    <table>
+        <tr>
+            <th>Element</th>
+            <th>View</th>
+        </tr>
+        <tr>
+            <td>Label</td>
+            <td><label>Label example</label></td>
+        </tr>
+        <tr>
+            <td>Input Text</td>
+            <td>
+                <label for="">Label</label>
+                <div class="control">
+                    <input name="" id="" type="text" value=""
+                           class="input-text" title="" placeholder="Placeholder">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Input Text Disabled</td>
+            <td>
+                <label for="">Label</label>
+                <div class="control">
+                    <input name="" id="" type="text" value=""
+                           class="input-text" title="" placeholder="Placeholder" disabled>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Input Text Error</td>
+            <td>
+                <label for="">Label *</label>
+                <div class="control">
+                    <input name="" id="" type="text" value=""
+                           class="input-text mage-error" title="" placeholder="Placeholder">
+                    <div for="" generated="true" class="mage-error" id="">This field is required.</div>
+                </div>
+            </td>
+        </tr>
+
+        <tr><td><br></td><td><br></td></tr>
+
+        <tr>
+            <td>Select</td>
+            <td>
+                <label for="">Label</label>
+                <div class="control">
+                    <select name="" id="">
+                        <option value="0">Option None</option>
+                        <option value="1">Option 1</option>
+                        <option value="1">Option 2</option>
+                    </select>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Select Disabled</td>
+            <td>
+                <label for="">Label</label>
+                <div class="control">
+                    <select name="" id="" disabled>
+                        <option value="0">Option None</option>
+                        <option value="1">Option 1</option>
+                        <option value="1">Option 2</option>
+                    </select>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Select Error</td>
+            <td>
+                <label for="">Label *</label>
+                <div class="control">
+                    <select name="" id="" class="mage-error">
+                        <option value="0">Option None</option>
+                        <option value="1">Option 1</option>
+                        <option value="1">Option 2</option>
+                    </select>
+                    <div for="" generated="true" class="mage-error" id="">This field is required.</div>
+                </div>
+            </td>
+        </tr>
+
+        <tr><td><br></td><td><br></td></tr>
+
+        <tr>
+            <td>Input Radio</td>
+            <td>
+                <div>
+                    <input type="radio" name="radio1" id="radio1">
+                    <label for="radio1">Radio 1</label>
+                </div>
+                <br>
+                <div>
+                    <input type="radio" name="radio1" id="radio1-longer-label">
+                    <label for="radio1-longer-label">Longer label, Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        <br />Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo
+                        <br />reprehenderit optio amet ab temporibus asperiores quasi cupiditate.</label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Input Radio Disabled</td>
+            <td>
+                <div>
+                    <input type="radio" name="radio2" id="radio2" disabled>
+                    <label for="radio2">Radio 2</label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Input Radio Checked</td>
+            <td>
+                <div>
+                    <input type="radio" name="radio3" id="radio3" checked>
+                    <label for="radio3">Radio 3</label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Input Radio Error</td>
+            <td>
+                <div>
+                    <input type="radio" name="radio4" id="radio4" class="mage-error">
+                    <label for="radio4">Radio 4</label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Input Radio Checked Disabled</td>
+            <td>
+                <div>
+                    <input type="radio" name="radio5" id="radio5" checked disabled>
+                    <label for="radio5">Radio 5</label>
+                </div>
+            </td>
+        </tr>
+
+        <tr><td><br></td><td><br></td></tr>
+
+        <tr>
+            <td>Input Checkbox</td>
+            <td>
+                <div>
+                    <input type="checkbox" name="checkbox1" id="checkbox1">
+                    <label for="checkbox1">Checkbox 1</label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Input Checkbox Disabled</td>
+            <td>
+                <div>
+                    <input type="checkbox" name="checkbox2" id="checkbox2" disabled>
+                    <label for="checkbox2">Checkbox 2</label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Input Checkbox Checked</td>
+            <td>
+                <div>
+                    <input type="checkbox" name="checkbox3" id="checkbox3" checked>
+                    <label for="checkbox3">Checkbox 3</label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Input Checkbox Error</td>
+            <td>
+                <div>
+                    <input type="checkbox" name="checkbox4" id="checkbox4" class="mage-error">
+                    <label for="checkbox4">Checkbox 4</label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Input Checkbox Checked Disabled</td>
+            <td>
+                <div>
+                    <input type="checkbox" name="checkbox5" id="checkbox5" checked disabled>
+                    <label for="checkbox5">Checkbox 5</label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Input Date</td>
+            <td>
+                <div>
+                    <label for="input-datepicker">Select date:</label>
+                    <div class="control control-calendar">
+                        <input type="text"
+                               name="input-datepicker"
+                               id="input-datepicker"
+                               placeholder="dd/mm/yyyy"
+                               autocomplete="off"
+                               data-mage-init='{"customCalendar": {}}'/>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Input Date Disabled</td>
+            <td>
+                <div>
+                    <label for="input-datepicker2">Select date:</label>
+                    <div class="control control-calendar">
+                        <input type="text"
+                               name="input-datepicker2"
+                               id="input-datepicker2"
+                               placeholder="dd/mm/yyyy"
+                               autocomplete="off"
+                               disabled
+                               data-mage-init='{"customCalendar": {}}'/>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Input Date Error</td>
+            <td>
+                <div>
+                    <label for="input-datepicker3">Select date:</label>
+                    <div class="control control-calendar">
+                        <input type="text"
+                               name="input-datepicker3"
+                               id="input-datepicker3"
+                               class="mage-error"
+                               placeholder="dd/mm/yyyy"
+                               autocomplete="off"
+                               data-mage-init='{"customCalendar": {}}'/>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+<br><br>
+
+<h2>Typography</h2>
+<div class="overflow-section">
+    <h3>Headings</h3>
+    <table>
+        <tr>
+            <th>Element</th>
+            <th>View</th>
+        </tr>
+        <tr>
+            <td>H1</td>
+            <td><h1>H1 Example</h1></td>
+        </tr>
+        <tr>
+            <td>H2</td>
+            <td><h2>H2 Example</h2></td>
+        </tr>
+        <tr>
+            <td>H3</td>
+            <td><h3>H3 Example</h3></td>
+        </tr>
+        <tr>
+            <td>H4</td>
+            <td><h4>H4 Example</h4></td>
+        </tr>
+        <tr>
+            <td>H5</td>
+            <td><h5>H5 Example</h5></td>
+        </tr>
+        <tr>
+            <td>H6</td>
+            <td><h6>H6 Example</h6></td>
+        </tr>
+    </table>
+
+    <h3>Paragraphs</h3>
+    <table>
+        <tr>
+            <th>Element</th>
+            <th>View</th>
+        </tr>
+        <tr>
+            <td>Lead "p" tag</td>
+            <td><p>Lorem <strong>Strong</strong> <em>Em</em> <a href="#">Link</a> ipsum dolor sit amet, consectetur adipisicing elit.
+                    <br>Fuga illo laudantium magnam mollitia quisquam velit voluptatum!
+                    <br>Deserunt eaque quasi sed! Cupiditate deleniti dolorem molestias mollitia nostrum qui repudiandae tenetur voluptate.</p>
+        </tr>
+        <tr>
+            <td>Body - all tags - not in p tag <br> "div" element in this example</td>
+            <td><div>Lorem <strong>Strong</strong> <em>Em</em> <a href="#">Link</a> ipsum dolor sit amet, consectetur adipisicing elit.
+                    <br>Fuga illo laudantium magnam mollitia quisquam velit voluptatum!
+                    <br>Deserunt eaque quasi sed! Cupiditate deleniti dolorem molestias mollitia nostrum qui repudiandae tenetur voluptate.</div></td>
+        </tr>
+        <tr>
+            <td>Blockquote "blockquote"</td>
+            <td><blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</blockquote></td>
+        </tr>
+        <tr>
+            <td>Links "a"</td>
+            <td>
+                <a href="#">Link</a><br>
+            </td>
+        </tr>
+        <tr>
+            <td>Caption "caption"</td>
+            <td>
+                Default hidden in magento, can be specified directly for specific theme project.
+                <table>
+                    <caption>Caption. <strong>Strong</strong> <em>Em</em> <a href="#">Link</a></caption>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <h3>Lists</h3>
+    <table>
+        <tr>
+            <th>Element</th>
+            <th>View</th>
+        </tr>
+        <tr>
+            <td>Bullet "ul"</td>
+            <td>
+                <ul>
+                    <li>Bullet list</li>
+                    <li>
+                        flks gkfmdl sdfsdf
+                        <ul>
+                            <li>Bullet list nested</li>
+                            <li>fgdfgdfl</li>
+                        </ul>
+                    </li>
+                    <li>fdkl kldfg</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Numbered "ol"</td>
+            <td>
+                <ol>
+                    <li>Numbered list</li>
+                    <li>jkfd lfdg
+                        <ol>
+                            <li>Numbered list nested</li>
+                            <li>lksdfl sdf</li>
+                        </ol>
+                    </li>
+                    <li>lkrkg lkvmm fdsg</li>
+                    <li>lsdfjgkig</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+</div>
+<br><br>
+
+<h2>Messages</h2>
+<div class="overflow-section">
+    <div class="messages">
+        <div class="message message-notice notice">
+            <div>You need to choose options for your item.</div>
+        </div>
+        <div class="message-info info message">
+            <div>Info message</div>
+        </div>
+        <div class="message-error error message">
+            <div>An unknown error</div>
+        </div>
+        <div class="message-success success message">
+            <div>Success message</div>
+        </div>
+        <div class="message-warning warning message">
+            <div>Notice message</div>
+        </div>
+    </div>
+</div>
+<br><br>
+
+<h2>Pagination</h2>
+<div class="overflow-section">
+    <div class="pages">
+        <strong class="label pages-label" id="paging-label">Strona</strong>
+        <ul class="items pages-items" aria-labelledby="paging-label">
+
+            <li class="item pages-item-previous">
+                <a class="action  previous" href="#" title="Wstecz">
+                    <span class="label">Strona</span>
+                    <span>Wstecz</span>
+                </a>
+            </li>
+
+            <li class="item current">
+                <strong class="page">
+                    <span class="label">Aktualnie czytasz stronę</span>
+                    <span>1</span>
+                </strong>
+            </li>
+
+            <li class="item">
+                <a href="#" class="page">
+                    <span class="label">Strona</span>
+                    <span>2</span>
+                </a>
+            </li>
+
+            <li class="item">
+                <a href="#" class="page">
+                    <span class="label">Strona</span>
+                    <span>3</span>
+                </a>
+            </li>
+
+            <li class="item">
+                <a href="#" class="page">
+                    <span class="label">Strona</span>
+                    <span>4</span>
+                </a>
+            </li>
+
+            <li class="item">
+                <a href="#" class="page">
+                    <span class="label">Strona</span>
+                    <span>5</span>
+                </a>
+            </li>
+
+            <li class="item pages-item-next">
+                <a class="action next" href="#" title="Następne">
+                    <span class="label">Strona</span>
+                    <span>Następne</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<br><br>
+
+<h2>Additional information</h2>
+<ul>
+    <li>
+        <p>Theme uses fonts: 'icons-blank-theme' and 'FontAwesome'.</p>
+        <p>Font family 'FontAwesome' is used by direct setting for particular element.</p>
+    </li>
+    <li>
+        <p>Buttons with Icons should be set using default magento less mixins or custom mixin ".includeFontAwesomeIcon" created directly for font awesome family.</p>
+    </li>
+</ul>
