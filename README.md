@@ -1,13 +1,13 @@
 # Magento 2 Divante Uikit Module
 
-The Divante Uikit module has been created for and as a dependency of Divante Theme Frontend Rapid.
-UI Kit is a set of most common elements on the page. Buttocks, typography, form elements, colors - thanks to the change of only these elements we can easily give our website the individual character, without costly and time-consuming design of individual views. This is a reasonable compromise between using a default skin and designing your own.
+The Divante Uikit module has been created for and as a dependency of [Divante Rapid Theme](https://github.com/DivanteLtd/magento2-rapid-theme).
+UI Kit is a set of most common elements on the page. Buttons, typography, form elements, colors. By changing only these elements we can easily give our website the individual character, without costly and time-consuming design/customization process of individual views. This is a reasonable compromise between using a default skin and designing your own.
 
 ## Compatibility
-* Same as for Divante Theme Frontend Rapid
+* Same as for [Divante Rapid Theme](https://github.com/DivanteLtd/magento2-rapid-theme)
  
 ## Additional information
-* Any additional information can be found directly on Uikit's website: baseUrl/uikit   
+* Any additional information can be found directly on Uikit's website: [http://rapid.divante.co/uikit](http://rapid.divante.co/uikit)
 
 #### Features on front
 
