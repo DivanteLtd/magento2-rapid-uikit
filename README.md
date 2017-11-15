@@ -1,16 +1,7 @@
 # Magento 2 Divante Uikit Module
 
 The Divante Uikit module has been created for and as a dependency of Divante Theme Frontend Rapid.
-
-## Who is developing Theme Frontend Rapid ?
-<p align="center">
-    <a href="https://divante.co/">
-        <img height="100" src="http://divante.co/static/img/logo.svg">
-    </a>
-</p>
-
-Divante has been delivering the highest quality e-commerce solutions since its inception in 2008. Our main focus is to create the most elegant and effective e-commerce services. We connect the latest technology with a great business approach.
-Visit our website for more information  <a href="https://divante.co/">Divante.co</a> 
+UI Kit is a set of most common elements on the page. Buttocks, typography, form elements, colors - thanks to the change of only these elements we can easily give our website the individual character, without costly and time-consuming design of individual views. This is a reasonable compromise between using a default skin and designing your own.
 
 ## Compatibility
 * Same as for Divante Theme Frontend Rapid
@@ -27,3 +18,21 @@ Visit our website for more information  <a href="https://divante.co/">Divante.co
     
 ## Standards & Code Quality
 * This module respects all Magento2 code quality rules and our own PHPCS and PHPMD rulesets.
+
+## Why use Magento 2 Divante Uikit module?
+46% increase in revenue - this is how much you can achieve with an online shop. That’s why it’s the high time for you to start thinking seriously about your online store. Working with many Fashion eStores we learned from the habits of fashion eShops users. It helps us to create a product adjusted to their needs. See our [case studies](https://divante.co/case-studies/ "case studies"). 
+
+## About Authors
+<p align="center">
+    <a href="https://divante.co/">
+        <img height="100" src="http://divante.co/static/img/logo.svg">
+    </a>
+</p>
+
+We are a Software House from Europe, existing from 2008 and employing about 150 people. Our core competencies are built around Magento, Pimcore and bespoke software projects (we love Symfony3, Node.js, Angular, React, Vue.js). We specialize in sophisticated integration projects trying to connect hardcore IT with good product design and UX.
+
+We work for Clients like INTERSPORT, ING, Odlo, Onderdelenwinkel or CDP, the company that produced The Witcher game. We develop two projects: [Open Loyalty](http://www.openloyalty.io/ "Open Loyalty") - loyalty program in open source and [Vue.js Storefront](https://github.com/DivanteLtd/vue-storefront "Vue.js Storefront").
+
+We are part of the OEX Group which is listed on the Warsaw Stock Exchange. Our annual revenue has been growing at a minimum of about 30% year on year.
+
+Visit our website [Divante.co](https://divante.co/ "Divante.co") for more information.
