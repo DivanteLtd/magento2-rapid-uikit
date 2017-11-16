@@ -11,7 +11,9 @@ UI Kit is a set of most common elements on the page. Buttons, typography, form e
 
 #### Features on front
 
- ![front](README_MEDIA/Uikit.jpg)
+ ![front](README_MEDIA/new_ui_kit.png)
+ ![front](README_MEDIA/new_ui_kit_3.png)
+ ![front](README_MEDIA/new_ui_kit_2.png)
     
 ## License
 * The Grouped Products Manager module is licensed under the terms of the MIT license.
